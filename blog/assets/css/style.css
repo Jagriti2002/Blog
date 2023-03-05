@@ -168,6 +168,7 @@ address { font-style: normal; }
 html {
   font-size: 10px;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -177,6 +178,7 @@ body {
   font-size: 1.6rem;
   line-height: var(--lineHeight-4);
   overflow-y: overlay;
+  overflow-x: hidden;
 }
 
 body.nav-active { overflow: hidden; }
